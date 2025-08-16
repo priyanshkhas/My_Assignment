@@ -48,7 +48,7 @@ Users can:
 ## 🌍 Live Demo
 
 The project is deployed on **Vercel**.  
-👉 [Click here to view the live app](myassignment-two.vercel.app)
+👉 [Click here to view the live app](myassignment-n3500fnaf-priyansh-khasdevs-projects.vercel.app)
 
  
 
