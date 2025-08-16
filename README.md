@@ -1,12 +1,53 @@
-# React + Vite
+# 🚀 Full-Stack Blog & Authentication System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Blog Application** with authentication, CRUD operations, and listing/data management features.  
+It demonstrates fundamental full-stack development skills using **React (frontend)** and a backend (Appwrite/other service).  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+### 1. 🔑 Authentication System
+- Basic **username/password login** functionality.
+- Libraries (e.g., JWT, bcrypt, or Passport.js) are optional.
+- Architectural decision documented in `design_notes.md`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. 📝 CRUD Operations (Blog App)
+Users can:
+- ➕ **Add blog**
+- 🗑️ **Delete blog**
+- ✏️ **Edit & Update blog**
+- 👀 **View blog**
+
+**Field Types Implemented:**
+- ✅ **Text field** – Blog Title, Content  
+- ✅ **Enum (dropdown selection)** – Blog Status (Active/Inactive)  
+- ✅ **Boolean field** – Published (Yes/No)  
+- ✅ **Calculated field** – Estimated Reading Time (derived from word count & average reading speed)
+
+### 3. 📂 Listing & Data Management
+- ✅ **Pagination** (5–10 items per page)  
+- ✅ **Filtering** (e.g., by status: active/inactive)  
+    
+  - Sorting (newest/oldest first)  
+  - Search functionality  
+
+---
+
+## 🛠️ Implementation Details
+
+- **Backend:** Node.js + Express (or Appwrite if preferred)  
+- **Frontend:** React.js (with React Router & Redux Toolkit for state management)  
+- **Database:** MongoDB / Appwrite Database  
+- **Authentication:** Session/JWT-based auth  
+
+---
+
+## 🌍 Hosting
+
+The project can be deployed on **free platforms - Vercel**:
+Here is Project link **(myassignment-two.vercel.app)**
+ 
+
+---
+
