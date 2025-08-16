@@ -45,8 +45,11 @@ Users can:
 
 ## 🌍 Hosting
 
-The project can be deployed on **free platforms - Vercel**:
-Here is Project link **(myassignment-two.vercel.app)**
+## 🌍 Live Demo
+
+The project is deployed on **Vercel**.  
+👉 [Click here to view the live app](myassignment-two.vercel.app)
+
  
 
 ---
