@@ -43,12 +43,10 @@ Users can:
 
 ---
 
-## 🌍 Hosting
-
 ## 🌍 Live Demo
 
 The project is deployed on **Vercel**.  
-👉 [Click here to view the live app](myassignment-n3500fnaf-priyansh-khasdevs-projects.vercel.app)
+👉 [Click here to view the live app](https://myassignment-n3500fnaf-priyansh-khasdevs-projects.vercel.app)
 
  
 
